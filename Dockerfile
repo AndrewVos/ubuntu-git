@@ -1,5 +1,3 @@
 FROM ubuntu
 
-RUN apt-get -y update
-RUN apt-get -y install git-core
-RUN apt-get -y clean
+RUN apt-get -y update && apt-get -y install git-core
